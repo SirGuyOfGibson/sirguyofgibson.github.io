@@ -9,21 +9,11 @@
 	display: inline-block;
 	background-color: rgb(128, 185, 110);
 }
-.grid{
-	display: grid;
-	display: inline-block;
-	grid-template-columns: auto;
-	position:relative;
-}
 .title{
-width : 1000px;
-height : 250px;
-background-color : rgb(187,255,251);
-text-align:center;
+	background-color : rgb(187,255,251);
+	text-align:center;
 }
 .content{
-width : 1000px;
-height : 500px;
-background-color : rgb(255,179,196);
-text-align:center;
+	background-color : rgb(255,179,196);
+	text-align:center;
 }
