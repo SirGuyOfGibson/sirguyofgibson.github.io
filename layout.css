@@ -1,19 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+}
 .background{
 	width:100%;
+	height:100%;
+	margin:0;
 	text-align:center;
-	background-color: rgb(255, 185, 110);
 }
 .container{
-	width:80%;
+	margin-top:100px;
 	text-align:center;
-	display: inline-block;
-	background-color: rgb(128, 185, 110);
+	background-color: rgba(128, 185, 110,0.5);
 }
 .title{
 	background-color : rgb(187,255,251);
+	position:fixed;
+	width:100%;
+	height: 100px;
 	text-align:center;
+	
+}
+.sidebar{
+	display:table-cell;
+	position:fixed;
+	width:15%;
+	height:100%;
+	background-color : rgba(155,10,196,0.5);
+	text-align:top;
+}
+div.p{
+	text-align:top;
 }
 .content{
-	background-color : rgb(255,179,196);
+	width: 70%;
+	display:table-cell;
+	background-color : rgba(255,179,196,0.7);
 	text-align:center;
+}
+.image_family{
+	background: url("Images/family.jpg") no-repeat;
+	width: 350px;
+	height: 300px;
+	background-size: contain;
+	float: right;
+}
+.image_Daughter_Dad{
+	background: url("Images/Daughter+Dad.jpg") no-repeat;
+	width: 350px;
+	height: 300px;
+	background-size: contain;
+	float: right;
+}
+.image_parents{
+	background: url("Images/Mom+Dad.jpg") no-repeat;
+	width: 350px;
+	height: 300px;
+	background-size: contain;
+	float: right;
 }
