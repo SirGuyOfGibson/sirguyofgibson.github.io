@@ -17,7 +17,7 @@ body{
 	background-color: rgba(128, 185, 110,0.5);
 }
 .title{
-	background-color : rgb(165,42,42);
+	background-color : rgb(72,61,139);
 	position:fixed;
 	width:100%;
 	height: 100px;
@@ -29,7 +29,7 @@ body{
 	position:fixed;
 	width:15%;
 	height:100%;
-	background-color : rgb(222,184,135);
+	background-color : rgb(176,224,230);
 	text-align:top;
 }
 div.p{
@@ -38,32 +38,32 @@ div.p{
 .content{
 	width: 70%;
 	display:table-cell;
-	background-color : rgba(255,179,196,0.7);
+	background-color : rgba(211,211,211);
 	text-align:center;
 }
 .content_paragraph{
 	text-align:left;
 }
 .image_family{
-	background: url("Images/family.jpg") no-repeat;
-	width: 350px;
-	height: 300px;
+	background: url("Images/family_edited.jpg") no-repeat;
+	width: 500px;
+	height: 500px;
 	background-size: contain;
 	float: right;
 	
 }
 .image_Daughter_Dad{
-	background: url("Images/Daughter+Dad.jpg") no-repeat;
-	width: 350px;
-	height: 350px;
+	background: url("Images/Daughter+Dad_edited.jpg") no-repeat;
+	width: 450px;
+	height: 450px;
 	background-size: contain;
 	float: right;
 	
 }
 .image_parents{
-	background: url("Images/Mom+Dad.jpg") no-repeat;
-	width: 350px;
-	height: 300px;
+	background: url("Images/Mom+Dad_edited.jpg") no-repeat;
+	width: 450px;
+	height: 400px;
 	background-size: contain;
 	float: right;
 	
