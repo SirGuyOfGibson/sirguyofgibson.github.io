@@ -17,10 +17,6 @@ body{
 	/*background-color: rgba(128, 185, 110,0.5);*/
 }
 
-.top{
-
-	style="border-collapse: collapse; border: none;"
-}
 
 .title{
 	background-color : rgb(148, 109, 156)/*rgb(133, 96, 141)*/;
@@ -30,7 +26,8 @@ body{
 	text-align:center;
 	color:rgb(217, 212, 209);
 	z-index: 2;
-	
+	top:0px;
+	left:0px;
 }
 .sidebar{
 	
@@ -48,7 +45,7 @@ div{
 
 
 .content{
-	width: 70vw;
+	width: 68vw;
 	position:absolute;
 	z-index: 1;
 	background-color : rgb(189, 199, 219)/*rgba(214, 237, 250)*/;
@@ -56,6 +53,7 @@ div{
 	text-align:left;
 	margin-left:15vw;
 	margin-top:8vw;
+	padding:1vw;
 }
 .content
 td{
