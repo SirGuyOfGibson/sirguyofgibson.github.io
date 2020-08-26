@@ -7,79 +7,80 @@ body{
 }
 .background{
 	width:100%;
-	height:100%;
+	height:90vh;
 	margin:0;
 	text-align:center;
 }
 .container{
-	margin-top:100px;
 	text-align:center;
 	position:relative;
 	/*background-color: rgba(128, 185, 110,0.5);*/
 }
+
+.top{
+	border: 0;
+}
+
 .title{
 	background-color : rgb(148, 109, 156)/*rgb(133, 96, 141)*/;
 	position:fixed;
-	width:100%;
-	height: 100px;
+	width:100%;	
+	height:8vw;
 	text-align:center;
 	color:rgb(217, 212, 209);
 	z-index: 2;
+	
 }
 .sidebar{
-	display:table-cell;
+	
+	width:15vw;
 	position:fixed;
-	width:15%;
-	height:100%;
 	background-color : rgb(217, 212, 209)/*rgb(247, 230, 252)rgb(221, 220, 222)*/;
 	text-align:top;
-	
-	font-size: 25px;
 	color:rgb(19, 19, 16);
+	margin-top:8vw;
 }
 .sidebar
 div{
-	margin:10px;
 	text-align: left;
 }
 
 
 .content{
-	width: 70%;
-	display:table-cell;
+	width: 70vw;
 	position:absolute;
 	z-index: 1;
 	background-color : rgb(189, 199, 219)/*rgba(214, 237, 250)*/;
 	color:rgb(19, 19, 16);
 	text-align:left;
-	margin-left:15%;
+	margin-left:15vw;
+	margin-top:8vw;
 }
 .content
 td{
-	padding: 10px;
+	
 }
 
 .image_family{	
 	background: url("Images/family.jpg") no-repeat;
-	width: 640px;
-	height: 480px;
+	width: 45vw;
+	height: 30vw;
 	background-size: contain;
 	float: right;
 	
 }
 .image_Daughter_Dad{
 	background: url("Images/Daughter+Dad.jpg") no-repeat;
-	width: 640px;
-	height: 854px;
+	width: 45vw;
+	height: 40vw;
 	background-size: contain;
 	float: right;
 	
 }
 .image_parents{
 	background: url("Images/Mom+Dad.jpg") no-repeat;
-	width: 640px;
-	height: 480px;
+	width: 40vw;
+	height: 30vw;
 	background-size: contain;
-	float: right;
 	
 }
