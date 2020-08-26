@@ -18,7 +18,8 @@ body{
 }
 
 .top{
-	border: 0;
+
+	style="border-collapse: collapse; border: none;"
 }
 
 .title{
